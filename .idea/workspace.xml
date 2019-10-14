@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0311684e-4a86-445e-9a8c-5991ed153209" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SCCj7kR0daYPdoWOp3TmziP9vo" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="staff" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.DirectorTest.hasPayRaise">
+    <configuration name="DataBaseAdminTest.hasPayRaise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employee" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DataBaseAdminTest" />
+      <option name="METHOD_NAME" value="hasPayRaise" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employee" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectorTest.hasBUdget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employee" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="hasBUdget" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectorTest.hasPayBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employee" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="hasPayBonus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectorTest.hasPayRaise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employee" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="hasPayRaise" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DirectorTest.hasPayRaise" />
+        <item itemvalue="JUnit.DirectorTest.hasPayBonus" />
+        <item itemvalue="JUnit.DirectorTest" />
+        <item itemvalue="JUnit.DirectorTest.hasBUdget" />
+        <item itemvalue="JUnit.DataBaseAdminTest.hasPayRaise" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0311684e-4a86-445e-9a8c-5991ed153209" name="Default Changelist" comment="" />
+      <created>1571058322226</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571058322226</updated>
+    </task>
+    <servers />
+  </component>
+</project>
