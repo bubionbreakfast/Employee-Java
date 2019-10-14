@@ -17,7 +17,12 @@ public abstract class Employee {
     }
 
     public void setName(String name) {
+    if(name == null){
+        this.getName();
+        }else {
         this.name = name;
+    }
+
     }
 
     public int getNINumber() {

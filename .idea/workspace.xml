@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0311684e-4a86-445e-9a8c-5991ed153209" name="Default Changelist" comment="" />
+    <list default="true" id="0311684e-4a86-445e-9a8c-5991ed153209" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/management/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/management/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ManagerTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +32,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1SCCj7kR0daYPdoWOp3TmziP9vo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="staff" />
@@ -40,36 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DirectorTest.hasPayRaise">
-    <configuration name="DataBaseAdminTest.hasPayRaise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="employee" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DataBaseAdminTest" />
-      <option name="METHOD_NAME" value="hasPayRaise" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DirectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="employee" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DirectorTest.hasBUdget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="employee" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
-      <option name="METHOD_NAME" value="hasBUdget" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ManagerTest.canSetName">
     <configuration name="DirectorTest.hasPayBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="employee" />
       <option name="PACKAGE_NAME" value="" />
@@ -90,13 +74,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ManagerTest.canSetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employee" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ManagerTest" />
+      <option name="METHOD_NAME" value="canSetName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.hasNegativePayRaise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employee" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ManagerTest" />
+      <option name="METHOD_NAME" value="hasNegativePayRaise" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.hasPayRaise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employee" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ManagerTest" />
+      <option name="METHOD_NAME" value="hasPayRaise" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ManagerTest.canSetName" />
+        <item itemvalue="JUnit.ManagerTest.hasNegativePayRaise" />
+        <item itemvalue="JUnit.ManagerTest.hasPayRaise" />
         <item itemvalue="JUnit.DirectorTest.hasPayRaise" />
         <item itemvalue="JUnit.DirectorTest.hasPayBonus" />
-        <item itemvalue="JUnit.DirectorTest" />
-        <item itemvalue="JUnit.DirectorTest.hasBUdget" />
-        <item itemvalue="JUnit.DataBaseAdminTest.hasPayRaise" />
       </list>
     </recent_temporary>
   </component>
@@ -112,5 +126,16 @@
       <updated>1571058322226</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

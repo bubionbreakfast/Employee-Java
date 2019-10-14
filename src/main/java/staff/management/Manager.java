@@ -17,9 +17,17 @@ public class Manager extends staff.Employee {
         this.deptName = deptName;
     }
 
-    public Double raiseSalary(){
+    public Double raiseSalary() {
+        if (super.getSalary() > 0.00)
         return super.getSalary() * 1.1;
+        else {
+            return 0.00;
+        }
     }
+
+//    public Double setRaiseSalary(Double salary){
+//        return super.setSalary(Double salary) = salary;
+//    }
 
     public Double payBonus(){
         return super.getSalary() * 0.01;
