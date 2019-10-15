@@ -7,11 +7,13 @@ import static org.junit.Assert.assertEquals;
 public class ManagerTest {
 
     private Manager manager;
+    private Manager manager2;
     private static final double DELTA = 0.01;
 
     @Before
     public void before(){
         manager = new Manager("Ted", 9999, 50000.00, "Management");
+        manager2 = new Manager("Ted", 9999, 4444.00, "Management");
     }
 
     @Test
@@ -28,18 +30,21 @@ public class ManagerTest {
 
     @Test
     public void hasPayBonus(){
-//        manager.payBonus();
-        assertEquals(500.0, manager.payBonus(),DELTA);
+        manager.payBonus();
+        assertEquals(50000.0, manager.getSalary(),DELTA);
     }
 
     @Test
     public void hasPayRaise(){
-        assertEquals(55000.00000000001, manager.raiseSalary(),DELTA);
+        manager.raiseSalary();
+        assertEquals(4444.0, manager2.getSalary(),DELTA);
     }
 
     @Test
     public void hasNegativePayRaise(){
-        assertEquals(0.00, manager.raiseSalary(),DELTA);
+//        manager2.payIncrease(9.77);
+//        manager.setRaiseSalary(2.22);
+        assertEquals(57727.56, manager2.payIncrease(12.99),DELTA);
     }
 
 }

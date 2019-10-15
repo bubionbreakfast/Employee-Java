@@ -22,7 +22,7 @@ public class DirectorTest {
     @Test
     public void hasPayBonus(){
 //        manager.payBonus();
-        assertEquals(1.0009000000000001, director.payBonus(),DELTA);
+        assertEquals(2.0018000000000002, director.payBonus(),DELTA);
     }
 
     @Test

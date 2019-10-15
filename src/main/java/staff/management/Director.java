@@ -19,6 +19,6 @@ public class Director extends staff.Employee {
     }
 
     public Double payBonus(){
-        return super.getSalary() * 0.01;
+        return super.getSalary() * 0.02;
     }
 }

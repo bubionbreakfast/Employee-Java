@@ -25,6 +25,10 @@ public abstract class Employee {
 
     }
 
+    public String notNegPayRaise(){
+        return "cannot be negative";
+    }
+
     public int getNINumber() {
         return NINumber;
     }
@@ -39,6 +43,10 @@ public abstract class Employee {
 
     public void setSalary(Double salary) {
         this.salary = salary;
+    }
+
+    public Double payIncrease(Double amount){
+        return this.salary * amount;
     }
 
     public abstract Double raiseSalary();
